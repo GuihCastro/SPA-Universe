@@ -1,0 +1,153 @@
+body,
+button {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    display: flex;
+    height: 12.2rem;
+    padding-left: 7.2rem;
+    align-items: center;
+    position: absolute;
+}
+
+nav img {
+    height: 4.2rem;
+    margin-right: 4.3rem;
+}
+
+nav a {
+    color: #FFF;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.1rem;
+    margin-right: 5.3rem;
+    transition: .3s;
+}
+
+nav a:hover {
+    font-weight: 700;
+}
+
+#app {
+    height: 100vh;
+    background: url(../img/mountains-universe-1.png) center no-repeat;
+    background-size: cover;
+}
+
+/* HOME */
+#app #home {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+#home h1 {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+#home button {
+    display: inline-flex;
+    padding: 1.2rem 3.2rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background: transparent;
+
+    color: #FFF;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.4rem;
+    /* 171.429% */
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: .3s;
+}
+
+#home button:hover {
+    color: #02799D;
+    background: #FFF;
+}
+
+/* UNIVERSE */
+#app #universe {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 18.5rem;
+    padding-left: 10.2rem;
+    gap: 2.4rem;
+}
+
+#universe h1 {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+#universe p {
+    width: 64.8rem;
+    color: #E1E1E6;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+/* EXPLORE */
+#app #explore {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 18.5rem;
+    padding-left: 10.2rem;
+    gap: 2.4rem;
+}
+
+#explore h1 {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+#explore p {
+    width: 64.8rem;
+    color: #E1E1E6;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+/* 404 */
+#app #error {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 18.5rem;
+    padding-left: 10.2rem;
+    gap: 2.4rem;
+}
+
+#error h1 {
+    color: #E1E1E6;
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 125%;
+}
+
+#error p {
+    width: 64.8rem;
+    color: #E1E1E6;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 160%;
+}
